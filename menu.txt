@@ -1,0 +1,47 @@
+    <header class="menu-pagina">
+            
+            <div class="menu container">
+                <a href="#">PIZZA NIKITOH</a>
+                <input type="checkbox" id="menu">
+
+            <label for="menu">
+                <img src="/Pizzas/NIKITOH.png" alt="logo">
+            </label>
+            </div>
+
+
+
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Pizzas</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="/Pizzas/carrito.jpg" id="carrito-img" alt="">
+
+                        <div id="carrito">
+                            <table id="lista_carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody></tbody>
+
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+    </heAder>
