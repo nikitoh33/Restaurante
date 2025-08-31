@@ -5,17 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PiZZAS NIKITOH</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <heAder>
-        <div class="menu-pagina">
-            <a href="#">Logo</a>
+    <header class="menu-pagina">
+            
+            <img src="/Pizzas/NIKITOH.png" alt="logo">
+            
+            <div class="menu container">
+                <a href="#">PIZZA NIKITOH</a>
+                <input type="checkbox" id="menu">
 
-            <input type="checkbox" id="menu">
             <label for="menu">
-                <img src="/Pizzas/NIKITOH.png" alt="">
+                <img src="/Pizzas/NIKITOH.png" alt="logo">
             </label>
+            </div>
+
+
 
             <nav class="navegacion">
                 <ul>
@@ -50,7 +57,7 @@
                 </ul>
             </div>
 
-        </div>
+    
 
         <div class="header-content container">
 
@@ -68,59 +75,113 @@
     </heAder>
 
 
-    <section class="pizzas-tipos">
+    <main class="pizzas-tipos">
         
         <div class="pizzas">
-            <img src="/Pizzas/Pizza Calabresa.jpg" alt="">
             <h3>Pizza Calabresa</h3>
+            <img src="/Pizzas/Pizza Calabresa.jpg" alt="">
+            <p class="text-info">Mozzarella y rodajas de salame o longaniza picante, con orégano.</p>
+            <p class="precio">30.000$</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
         </div>
         
         <div class="pizzas">
-            <img src="/Pizzas/Pizza Caprichosa.jpg" alt="">
             <h3>Pizza Caprichosa</h3>
+            <img src="/Pizzas/Pizza Caprichosa.jpg" alt="">
+            <p class="text-info">Mozzarella, jamón, champiñones, alcachofas y aceitunas.</p>
+            <p class="precio">33.000$</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
         </div>
 
         <div class="pizzas">
-            <img src="/Pizzas/Pizza Cuatro Quesos.jpg" alt="">
             <h3>Pizza Cuatro Quesos</h3>
+            <img src="/Pizzas/Pizza Cuatro Quesos.jpg" alt="">
+            <p class="text-info">Mezcla de quesos: mozzarella, gorgonzola, parmesano y fontina.</p>
+            <p class="precio">42.700$</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a> 
         </div>
         
         <div class="pizzas">
-            <img src="/Pizzas/Pizza Fugazzeta.jpg" alt="">
             <h3>Pizza Fugazzeta</h3>
+            <img src="/Pizzas/Pizza Fugazzeta.jpg" alt="">
+            <p class="text-info">Mozzarella y abundante cebolla, a veces con un relleno de queso.</p>
+            <p class="precio">32.000$</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
         </div>
 
         <div class="pizzas">
-            <img src="/Pizzas/Pizza Hawaiana.jpg" alt="">
             <h3>Pizza Hawaiana</h3>
+            <img src="/Pizzas/Pizza Hawaiana.jpg" alt="">
+            <p class="text-info">Mozzarella, jamón y rodajas de piña dulce.</p>
+            <p class="precio">29.000$</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
         </div>
         
         <div class="pizzas">
-            <img src="/Pizzas/Pizza Jamón y Queso.jpg" alt="">
             <h3>Pizza Jamón y Queso</h3>
+            <img src="/Pizzas/Pizza Jamón y Queso.jpg" alt="">
+            <p class="text-info">Salsa de tomate, mozzarella y jamón clásico.</p>
+            <p class="precio">24.000$</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
         </div>
 
         <div class="pizzas">
-            <img src="/Pizzas/Pizza Margarita.jpg" alt="">
             <h3>Pizza Margarita</h3>
+            <img src="/Pizzas/Pizza Margarita.jpg" alt="">
+            <p class="text-info">Salsa de tomate, mozzarella y hojas frescas de albahaca.</p>
+            <p class="precio">25.000$</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
         </div>
         
         <div class="pizzas">
-            <img src="/Pizzas/Pizza Napolitana.jpg" alt="">
             <h3>Pizza Napolitana</h3>
+            <img src="/Pizzas/Pizza Napolitana.jpg" alt="">
+            <p class="text-info">Salsa de tomate, mozzarella, ajo, orégano y aceite de oliva.</p>
+            <p class="precio">26.500$</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
         </div>
 
         <div class="pizzas">
-            <img src="/Pizzas/Pizza Pepperoni.jpg" alt="">
             <h3>Pizza Pepperoni</h3>
+            <img src="/Pizzas/Pizza Pepperoni.jpg" alt="">
+            <p class="text-info">Salsa de tomate, mozzarella y rodajas de pepperoni picante.</p>
+            <p class="precio">28.000$</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
         </div>
         
         <div class="pizzas">
-            <img src="/Pizzas/Pizza Vegetariana.jpg" alt="">
             <h3>Pizza Vegetariana</h3>
+            <img src="/Pizzas/Pizza Vegetariana.jpg" alt="">
+            <p class="text-info">Mozzarella y variedad de verduras: morrones, champiñones, berenjenas y aceitunas.</p>
+            <p class="precio">27.000$</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
         </div>
 
-    </section>
+    </main>
+
+<hr>
+
+
+    <footer class="pie-de-pagina">
+        <p>
+        Las mejores pizzas, hechas con pasión y sabor auténtico.
+        En PIZZA NIKITOH cada bocado es una experiencia: 
+        masa artesanal, ingredientes frescos y mucho amor en cada 
+        pizza. Desde las clásicas hasta las más originales, tenemos 
+        la pizza perfecta para vos. ¡Vení y disfrutá del verdadero sabor!
+        </p>
+
+        <thead>
+            <h2>Contacto</h2>
+            
+            <tr>
+                <th>Tel: 2616935851</th>
+                <th>Mail: pizzanikitoh33@gmail.com</th>
+            </tr>
+        </thead>
+
+
+    </footer>
 
 
 
