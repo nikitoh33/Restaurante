@@ -1,0 +1,21 @@
+descripciones:
+
+Pizza Margarita – Salsa de tomate, mozzarella y hojas frescas de albahaca.
+
+Pizza Napolitana – Salsa de tomate, mozzarella, ajo, orégano y aceite de oliva.
+
+Pizza Fugazzeta – Mozzarella y abundante cebolla, a veces con un relleno de queso.
+
+Pizza Cuatro Quesos – Mezcla de quesos: mozzarella, gorgonzola, parmesano y fontina.
+
+Pizza Hawaiana – Mozzarella, jamón y rodajas de piña dulce.
+
+Pizza Pepperoni – Salsa de tomate, mozzarella y rodajas de pepperoni picante.
+
+Pizza Calabresa – Mozzarella y rodajas de salame o longaniza picante, con orégano.
+
+Pizza Vegetariana – Mozzarella y variedad de verduras: morrones, champiñones, berenjenas y aceitunas.
+
+Pizza Caprichosa – Mozzarella, jamón, champiñones, alcachofas y aceitunas.
+
+Pizza Jamón y Queso – Salsa de tomate, mozzarella y jamón clásico.
