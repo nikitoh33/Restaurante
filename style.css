@@ -98,57 +98,6 @@ section{
 
 
 
-@media (max-width: 600px){
-    .checkbtn{
-        display: block;
-
-    }
-
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 520px;
-
-        background-image: url(Pizzas/fondo.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-
-
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-
-
-    nav ul{
-    float: right;
-    margin-right: 15px;
-}
-
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-
-    nav ul li a{
-        font-size: 20px;
-    }
-
-    li a:hover, li a.active{
-        background-color: black;
-        color: red;
-    }
-
-    #check:checked ~ ul {
-        left:0;
-    }
-
-  
-
-}
 
 
 
@@ -192,13 +141,6 @@ section{
 
 }
 
-.pizzas img{
-    width: 300px;
-    height: 280px;
-    border-radius: 15px;
-    object-fit: cover;
-   
-}
 
 .bloquepizza{
     color: white;
@@ -212,3 +154,83 @@ section{
     margin: 30px;
     align-items: center;
 }
+
+
+.pizzas img {
+    width: 220px;           /* todas mismo ancho */
+    height: 220px;          /* todas mismo alto */
+    border-radius: 15px;
+    object-fit: cover;      /* recorta sin deformar */
+    object-position: center;
+    display: block;
+}
+
+@media (max-width: 430px){
+
+      .pizzas img {
+      width: 380px;    
+      height: 200px;     
+      border-radius: 15px;
+   }
+
+
+   .pizzas{
+    display: block;
+    align-items: center;
+    }
+
+    .tipos{
+    margin: 16px;
+    }
+
+    .checkbtn{
+        display: block;
+
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+
+        background-image: url(Pizzas/fondo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+
+    nav ul{
+    float: right;
+    margin-right: 15px;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    li a:hover, li a.active{
+        background-color: black;
+        color: red;
+    }
+
+    #check:checked ~ ul {
+        left:0;
+    }
+
+   
+  
+}
+
