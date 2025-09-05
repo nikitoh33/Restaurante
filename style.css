@@ -151,19 +151,6 @@ section{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .intro{
     color: white;
     text-align: center;
@@ -202,4 +189,14 @@ section{
     height: 250px;
     margin: 10px;
     border-radius: 15px;
+    float: left;
+}
+
+.tipos{
+    margin: 20px;
+}
+
+.bloquepizza{
+    float: right;
+    border-style: solid;
 }
